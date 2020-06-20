@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   <br> 
    Entered value is:  {{val}} 
 <br>
-   <input [ngModel]="username" (ngModelChange)="username = $event">
+   <input [(ngModel)]="username" >
 <br>
 <p>Hello {{username}}!</p>
 ` 
